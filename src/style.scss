@@ -1,0 +1,90 @@
+html, body {
+  font-family: "Space Mono", "Avenir Next", Avenir, "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif;
+  text-align: center;
+  position: relative;
+  line-height: 1rem;
+  font-size: .7rem;
+  width: 100vw;
+  color: #666666;
+}
+
+a {
+  text-decoration: underline;
+  color: #0000ff;
+  &:hover {
+    color: #0000ff;
+  }
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+#main {
+  margin: 0 auto;
+  padding: 15px;
+  border: 0px solid;
+  border-radius: 5px;
+  background: #f8efe3;
+}
+
+#title {
+  font-size: 3rem;
+  color: #333333;
+  font-weight: bold;
+}
+
+div {
+  font-size: 1.75rem;
+  padding: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  display: block;
+  border: 5px solid #ffffff;
+}
+
+#img-div {
+  margin: 5px;
+  margin-right: 20px;
+  text-align: center;
+  color: #333333;
+  border: 1px solid #ffffff;
+  background-color: #f9f3ea;
+}
+
+#img-caption {
+  margin: 15px;
+  font-size: 1.4rem;
+}
+
+#headline {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.8rem;
+  padding: 1rem;
+  color: #333333;
+}
+
+#tribute-info {
+  color: #333333;
+}
+
+li {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  text-align: left;
+  padding: 0.5rem;
+}
+
+blockquote {
+  font-style: italic;
+  text-align: center;
+  margin: 15px;
+  font-size: 1.4rem;
+}
